@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="https://github.com/0-l">
+        <link rel="stylesheet" type="text/css" href="css/awoo.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200|Roboto:100,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>~</title>
+</head>
+<body>
+    <div id="search">
+        <div>
+            <input type="text" spellcheck="false" placeholder="search">
+            <button class="close"><i class="material-icons">&#xE5CD;</i></button>
+            <ul class="search-engines"></ul>
+        </div>
+    </div>
+    <div id="links" class="-">
+        <div id="tabs" class="!-">
+            <cols>
+                <ul class="- indicator">
+                    <li active></li>
+                </ul>
+                <div class="+ widgets col-end">
+                    <p class="time">00<span>:00</span></p>
+                    <div class="!+ + weather-config">
+                        <input name="color" type="text" placeholder="location">
+                    </div>
+                    <div class="+ weather">
+                        <button class="!+ edit">edit</button>
+                        <p temperature>4ºC</p>
+                        <p weather class="+">
+                            <i class="material-icons" sunny>wb_sunny</i>
+                        </p>
+                    </div>
+                </div>
+            </cols>
+        </div>
+        <div id="panels">
+            <ul class="main" active>
+                <div class="links">
+                    <li>
+                        <h1>School</h1>
+                        <a href="https://mail.google.com/mail/u/0/#inbox">Inbox</a>
+                        <a href="https://drive.google.com">Drive</a>
+                        <a href="https://calendar.google.com">Calendar</a>
+                        <a href="https://classroom.google.com">Classroom</a>
+                        <a href="https://meet.google.com">Meet</a>
+                    </li>
+                    <li>
+                        <h1>Personal</h1>
+                        <a href="https://mail.google.com/mail/u/1/#inbox">Inbox</a>
+                        <a href="https://drive.google.com/u/1/">Drive</a>
+                        <a href="https://facebook.com">Facebook</a>
+                        <a href="https://messenger.com">Messenger</a>
+                    </li>
+                    <li>
+                        <h1>Media</h1>
+                        <a href="https://discord.com/app">Discord</a>
+                        <a href="https://open.spotify.com">Spotify</a>
+                        <a href="https://youtube.com">Youtube</a>
+                        <a href="https://animixplay.to">Animix</a>
+                        <a href="https://twitter.com">Twitter</a>
+                    </li>
+                </div>
+            </ul>
+            <ul class="reddit">
+                <div class="links">
+                    <li><a href="https://reddit.com/">Home</a></li>
+                    <li><a href="http://reddit.com/r/wallpaper">r/Wallpaper</a></li>
+                    <li><a href="https://reddit.com/r/firefoxcss">r/FirefoxCSS</a></li>
+                    <li><a href="https://reddit.com/r/startpages">r/Startpages</a></li>
+                    <li><a href="https://reddit.com/r/desktops">r/Desktops</a></li>
+                    <li><a href="https://reddit.com/r/unixporn">r/Unixporn</a></li>
+                    <li><a href="https://reddit.com/r/comedyheaven">r/ComedyHeaven</a></li>
+                </div>
+            </ul>
+            <ul class="code">
+                <div class="links">
+                    <li><a href="https://github.com/">GitHub</a></li>
+                    <li><a href="https://udemy.com">Udemy</a></li>
+                    <li><a href="https://javascript.info/">The Modern Javascript Tutorial</a></li>
+                    <li><a href="https://learn.shayhowe.com/html-css/">Learn to Code HTML & CSS</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="|" id="todo">
+        <button class="+ add"><img src="img/add.png"></button>
+        <div class="+ addTodo">
+            <input type="text" value="" placeholder="todo" spellcheck="false">
+        </div>
+        <rows class="items">
+            <h1 class="+">todo</h1>
+        </rows>
+    </div>
+    <script type="text/javascript" src="js/strftime.js"></script>
+    <script type="text/javascript" src="js/todo.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/powerline.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+</body>
+</html>
